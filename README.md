@@ -15,4 +15,4 @@ GetProducts - Gets a list of order items for an order.
 
 GetAddresses - Gets shipping addresses for an order.
 
-This project is maintained by JMA Web Technologies. If you would like to contribute or would like to contact us for consulting, please contact us.
+This project is maintained by JMA Web Technologies. If you would like to contribute or would like to contact us for consulting, please <a href="http://www.jmawebtechnologies.com/contact">contact us</a>.
