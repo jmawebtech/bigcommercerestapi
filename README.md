@@ -3,6 +3,13 @@ BigCommerce Rest Api
 
 This project uses the Microsoft Web API to parse BigCommerce's REST API. BigCommerce's data is returned in Json. 
 
+To install this software, follow these steps:
+
+1. Right click your solution and go to manage packages
+2. In the search box, type web api
+3. Install the first listing
+4. Enable the API: https://support.bigcommerce.com/questions/1560/How+do+I+enable+the+API+for+my+store%3F
+
 To use this project, run the console app. There are 5 methods:
 
 GetOrdersByDateRange - Gets order by a beginning creation date and an end creation date.
