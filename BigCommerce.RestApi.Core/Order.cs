@@ -181,7 +181,7 @@ namespace BigCommerce.RestApi.Core
 
         private string external_sourceField;
 
-        private orderBilling_address[] billing_addressField;
+        private orderBilling_address billing_addressField;
 
         private link[][] productsField;
 
@@ -932,8 +932,8 @@ namespace BigCommerce.RestApi.Core
         }
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("billing_address", Form = System.Xml.Schema.XmlSchemaForm.Unqualified)]
-        public orderBilling_address[] billing_address
+        [DataMember]
+        public orderBilling_address billing_address
         {
             get
             {
