@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<addresses>
+  <address>
+    <id>1</id>
+    <order_id>100</order_id>
+    <first_name>Joseph</first_name>
+    <last_name>Anderson</last_name>
+    <company>JMA</company>
+    <street_1>123 Main St</street_1>
+    <street_2/>
+    <city>Watertown</city>
+    <zip>02452</zip>
+    <country>United States</country>
+    <country_iso2>US</country_iso2>
+    <state>Massachusetts</state>
+    <email>joe@jmawebtechnologies.com</email>
+    <phone>7813300737</phone>
+    <items_total>2</items_total>
+    <items_shipped>0</items_shipped>
+    <shipping_method>Fixed Shipping</shipping_method>
+    <base_cost>20.0000</base_cost>
+    <cost_ex_tax>20.0000</cost_ex_tax>
+    <cost_inc_tax>21.2500</cost_inc_tax>
+    <cost_tax>1.2500</cost_tax>
+    <cost_tax_class_id>2</cost_tax_class_id>
+    <base_handling_cost>0.0000</base_handling_cost>
+    <handling_cost_ex_tax>0.0000</handling_cost_ex_tax>
+    <handling_cost_inc_tax>0.0000</handling_cost_inc_tax>
+    <handling_cost_tax>0.0000</handling_cost_tax>
+    <handling_cost_tax_class_id>2</handling_cost_tax_class_id>
+    <shipping_zone_id>1</shipping_zone_id>
+    <shipping_zone_name>Default Zone</shipping_zone_name>
+  </address>
+</addresses>

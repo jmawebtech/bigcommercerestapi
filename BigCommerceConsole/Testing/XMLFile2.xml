@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<products>
+  <product>
+    <id>1</id>
+    <order_id>100</order_id>
+    <product_id>69</product_id>
+    <order_address_id>1</order_address_id>
+    <name>[Sample] Collette, aligator clutch</name>
+    <sku/>
+    <type>physical</type>
+    <base_price>280.0000</base_price>
+    <price_ex_tax>280.0000</price_ex_tax>
+    <price_inc_tax>297.5000</price_inc_tax>
+    <price_tax>17.5000</price_tax>
+    <base_total>560.0000</base_total>
+    <total_ex_tax>560.0000</total_ex_tax>
+    <total_inc_tax>595.0000</total_inc_tax>
+    <total_tax>35.0000</total_tax>
+    <weight>1.3000</weight>
+    <quantity>2</quantity>
+    <base_cost_price>0.0000</base_cost_price>
+    <cost_price_inc_tax>0.0000</cost_price_inc_tax>
+    <cost_price_ex_tax>0.0000</cost_price_ex_tax>
+    <cost_price_tax>0.0000</cost_price_tax>
+    <is_refunded>false</is_refunded>
+    <refund_amount>0.0000</refund_amount>
+    <return_id>0</return_id>
+    <wrapping_name/>
+    <base_wrapping_cost>0.0000</base_wrapping_cost>
+    <wrapping_cost_ex_tax>0.0000</wrapping_cost_ex_tax>
+    <wrapping_cost_inc_tax>0.0000</wrapping_cost_inc_tax>
+    <wrapping_cost_tax>0.0000</wrapping_cost_tax>
+    <wrapping_message/>
+    <quantity_shipped>0</quantity_shipped>
+    <event_name>NULL</event_name>
+    <event_date/>
+    <fixed_shipping_cost>10.0000</fixed_shipping_cost>
+    <ebay_item_id/>
+    <ebay_transaction_id/>
+    <option_set_id>13</option_set_id>
+    <parent_order_product_id>NULL</parent_order_product_id>
+    <is_bundled_product>false</is_bundled_product>
+    <bin_picking_number/>
+    <applied_discounts>...</applied_discounts>
+    <product_options>...</product_options>
+    <configurable_fields/>
+  </product>
+</products>

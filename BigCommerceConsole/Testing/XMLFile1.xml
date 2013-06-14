@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<order>
+  <id>100</id>
+  <customer_id>1</customer_id>
+  <date_created>Thu, 13 Jun 2013 22:53:10 +0000</date_created>
+  <date_modified>Thu, 13 Jun 2013 22:53:31 +0000</date_modified>
+  <date_shipped/>
+  <status_id>11</status_id>
+  <status>Awaiting Fulfillment</status>
+  <subtotal_ex_tax>560.0000</subtotal_ex_tax>
+  <subtotal_inc_tax>595.0000</subtotal_inc_tax>
+  <subtotal_tax>35.0000</subtotal_tax>
+  <base_shipping_cost>20.0000</base_shipping_cost>
+  <shipping_cost_ex_tax>20.0000</shipping_cost_ex_tax>
+  <shipping_cost_inc_tax>21.2500</shipping_cost_inc_tax>
+  <shipping_cost_tax>1.2500</shipping_cost_tax>
+  <shipping_cost_tax_class_id>2</shipping_cost_tax_class_id>
+  <base_handling_cost>0.0000</base_handling_cost>
+  <handling_cost_ex_tax>0.0000</handling_cost_ex_tax>
+  <handling_cost_inc_tax>0.0000</handling_cost_inc_tax>
+  <handling_cost_tax>0.0000</handling_cost_tax>
+  <handling_cost_tax_class_id>2</handling_cost_tax_class_id>
+  <base_wrapping_cost>0.0000</base_wrapping_cost>
+  <wrapping_cost_ex_tax>0.0000</wrapping_cost_ex_tax>
+  <wrapping_cost_inc_tax>0.0000</wrapping_cost_inc_tax>
+  <wrapping_cost_tax>0.0000</wrapping_cost_tax>
+  <wrapping_cost_tax_class_id>3</wrapping_cost_tax_class_id>
+  <total_ex_tax>552.0000</total_ex_tax>
+  <total_inc_tax>586.5000</total_inc_tax>
+  <total_tax>34.5000</total_tax>
+  <items_total>2</items_total>
+  <items_shipped>0</items_shipped>
+  <payment_method>PayPal</payment_method>
+  <payment_provider_id>V18A4DF63336</payment_provider_id>
+  <payment_status>captured</payment_status>
+  <refunded_amount>0.0000</refunded_amount>
+  <order_is_digital>false</order_is_digital>
+  <store_credit_amount>0.0000</store_credit_amount>
+  <gift_certificate_amount>0.0000</gift_certificate_amount>
+  <ip_address>146.115.165.6</ip_address>
+  <geoip_country>United States</geoip_country>
+  <geoip_country_iso2>US</geoip_country_iso2>
+  <currency_id>1</currency_id>
+  <currency_code>USD</currency_code>
+  <currency_exchange_rate>1.0000000000</currency_exchange_rate>
+  <default_currency_id>1</default_currency_id>
+  <default_currency_code>USD</default_currency_code>
+  <staff_notes/>
+  <customer_message/>
+  <discount_amount>0.0000</discount_amount>
+  <coupon_discount>28.0000</coupon_discount>
+  <shipping_address_count>1</shipping_address_count>
+  <is_deleted>false</is_deleted>
+  <billing_address>
+    <first_name>Joseph</first_name>
+    <last_name>Anderson</last_name>
+    <company>JMA</company>
+    <street_1>123 Main St</street_1>
+    <street_2/>
+    <city>Watertown</city>
+    <state>Massachusetts</state>
+    <zip>02452</zip>
+    <country>United States</country>
+    <country_iso2>US</country_iso2>
+    <phone>7813300737</phone>
+    <email>joe@jmawebtechnologies.com</email>
+  </billing_address>
+  <order_source>www</order_source>
+  <external_source>NULL</external_source>
+  <products>
+    <link rel="resource" href="https://store-4evfk.mybigcommerce.com/api/v2/orders/100/products.xml">/orders/100/products</link>
+  </products>
+  <shipping_addresses>
+    <link rel="resource" href="https://store-4evfk.mybigcommerce.com/api/v2/orders/100/shippingaddresses.xml">/orders/100/shippingaddresses</link>
+  </shipping_addresses>
+  <coupons>
+    <link rel="resource" href="https://store-4evfk.mybigcommerce.com/api/v2/orders/100/coupons.xml">/orders/100/coupons</link>
+  </coupons>
+</order>
