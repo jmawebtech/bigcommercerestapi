@@ -18,7 +18,12 @@ namespace BigCommerce.RestApi.ConsoleApp
         static void Main(string[] args)
         {
             BigCommerceRestApi bigCommerceRestApi = new BigCommerceRestApi(api_key, username, baseUrl);
-            List<Address> add = bigCommerceRestApi.GetAddresses(100);
+            List<orderstatus> statuses = bigCommerceRestApi.GetOrderStatuses();
+            foreach (orderstatus os in statuses)
+            {
+                Console.WriteLine(os.name + Environment.NewLine);
+            }
+
             Console.ReadLine();
         }
 

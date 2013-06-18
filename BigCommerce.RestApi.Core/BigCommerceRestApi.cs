@@ -20,6 +20,30 @@ namespace BigCommerce.RestApi.Core
             this.baseUrl = baseUrl;
         }
 
+        public List<orderstatus> GetOrderStatuses()
+        {
+            HttpClientHandler handler = new HttpClientHandler();
+            handler.Credentials = new NetworkCredential(username, api_key);
+
+            HttpClient client = new HttpClient(handler)
+            {
+                BaseAddress = new Uri(baseUrl),
+            };
+
+            string url = "orderstatuses.json";
+
+            HttpResponseMessage response = client.GetAsync(url).Result;
+            if (response.IsSuccessStatusCode)
+            {
+                List<orderstatus> result = response.Content.ReadAsAsync<List<orderstatus>>().Result;
+                return result;
+            }
+
+            return null;
+
+        }
+
+
         public List<order> GetOrdersByDateRange(DateTime beginTime, DateTime endTime)
         {
             HttpClientHandler handler = new HttpClientHandler();
