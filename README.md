@@ -22,4 +22,12 @@ GetProducts - Gets a list of order items for an order.
 
 GetAddresses - Gets shipping addresses for an order.
 
+GetOrderStatuses - Get all the order statuses from the store.
+
+This project was creating to integate with our MS Dynamics GP and QuickBooks solutions:
+
+http://www.cloudcartconnector.com
+
+http://www.connexmsd.com
+
 This project is maintained by JMA Web Technologies. If you would like to contribute or would like to contact us for consulting, please <a href="http://www.jmawebtechnologies.com/contact">contact us</a>.
